@@ -1,6 +1,8 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
+namespace ON{
 
 public class LookAtNearestCollider : MonoBehaviour
 {
@@ -55,4 +57,7 @@ public class LookAtNearestCollider : MonoBehaviour
             target.transform.GetChild(0).GetComponent<MeshRenderer>().enabled = false;
         }
     }
+}
+
+
 }

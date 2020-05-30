@@ -1,6 +1,8 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
+namespace ON{
 
 public class RiverMaker : MonoBehaviour
 {
@@ -130,4 +132,7 @@ public class RiverMaker : MonoBehaviour
         //Vector3 BB = Vector3.Lerp(B, C, t);
         return AA;//Vector3.Lerp(AA, BB, t);
     }
+}
+
+
 }

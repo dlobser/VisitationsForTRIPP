@@ -1,5 +1,7 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
+
+namespace ON{
 
 public static class CatmullRomSpline
 {
@@ -53,4 +55,6 @@ public static class CatmullRomSpline
 
         return pos;
     }
+}
+
 }

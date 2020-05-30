@@ -1,5 +1,7 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
+
+namespace ON{
 
 public class lookAtTarget : MonoBehaviour {
 
@@ -22,4 +24,7 @@ public class lookAtTarget : MonoBehaviour {
 		this.transform.Rotate (offset);
 	
 	}
+}
+
+
 }

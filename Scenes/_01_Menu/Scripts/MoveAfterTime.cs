@@ -2,48 +2,51 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MoveAfterTime : MonoBehaviour
+namespace ON
 {
-    public float time;
-    public GameObject sphere;
-    float counter = 0;
-    Vector3 init;
-    public float speed = 1;
-
-    public Vector3 moveTo;
-
-    private void Start()
+    public class MoveAfterTime : MonoBehaviour
     {
-        init = sphere.transform.localPosition;
+        public float time;
+        public GameObject sphere;
+        float counter = 0;
+        Vector3 init;
+        public float speed = 1;
 
-    }
-    void OnEnable()
-    {
-        StartCoroutine(timeUp());
-    }
+        public Vector3 moveTo;
 
-
-    IEnumerator timeUp()
-    {
-        counter = 0;
-        while (counter < time)
+        private void Start()
         {
-            counter += Time.deltaTime;
-            yield return null;
+            init = sphere.transform.localPosition;
+
         }
-        sphere.SetActive(true);
-        StartCoroutine(scaleUp());
-    }
-
-    IEnumerator scaleUp()
-    {
-        counter = 0;
-        while (counter < 1)
+        void OnEnable()
         {
-            counter += Time.deltaTime / speed;
+            StartCoroutine(timeUp());
+        }
 
-            sphere.transform.localPosition = Vector3.Lerp(init, moveTo,Mathf.SmoothStep(0,1, counter));
-            yield return null;
+
+        IEnumerator timeUp()
+        {
+            counter = 0;
+            while (counter < time)
+            {
+                counter += Time.deltaTime;
+                yield return null;
+            }
+            sphere.SetActive(true);
+            StartCoroutine(scaleUp());
+        }
+
+        IEnumerator scaleUp()
+        {
+            counter = 0;
+            while (counter < 1)
+            {
+                counter += Time.deltaTime / speed;
+
+                sphere.transform.localPosition = Vector3.Lerp(init, moveTo, Mathf.SmoothStep(0, 1, counter));
+                yield return null;
+            }
         }
     }
 }

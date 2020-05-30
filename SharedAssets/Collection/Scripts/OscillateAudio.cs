@@ -1,6 +1,8 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
+namespace ON{
 
 public class OscillateAudio : MonoBehaviour
 {
@@ -41,4 +43,7 @@ public class OscillateAudio : MonoBehaviour
     {
         return b1 + (s - a1) * (b2 - b1) / (a2 - a1);
     }
+}
+
+
 }

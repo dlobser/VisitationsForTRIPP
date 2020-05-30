@@ -1,5 +1,7 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
+
+namespace ON{
 
 public class enableAfterTime : MonoBehaviour {
 
@@ -40,4 +42,7 @@ public class enableAfterTime : MonoBehaviour {
             yield return null;
         }
     }
+}
+
+
 }

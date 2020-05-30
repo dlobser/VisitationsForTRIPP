@@ -1,5 +1,7 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
+
+namespace ON{
 
 public class TransformUniversal : MonoBehaviour {
     [SerializeField]
@@ -263,4 +265,7 @@ public class TransformUniversal : MonoBehaviour {
 	public float Noise (float t){
 		return Mathf.PerlinNoise(t,t*1.5f);
 	}
+}
+
+
 }

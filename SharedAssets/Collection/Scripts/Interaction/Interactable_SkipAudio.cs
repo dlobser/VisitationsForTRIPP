@@ -1,6 +1,8 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
+namespace ON{
 
 public class Interactable_SkipAudio : Interactable
 {
@@ -16,4 +18,7 @@ public class Interactable_SkipAudio : Interactable
         base.HandleTrigger();
         FindObjectOfType<UI_Manager>().transform.GetChild(0).GetComponent<PlayRandomAudio>().Skip();
     }
+}
+
+
 }

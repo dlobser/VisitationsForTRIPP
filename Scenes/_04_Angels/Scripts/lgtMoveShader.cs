@@ -1,5 +1,7 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
+
+namespace ON{
 
 public class lgtMoveShader : MonoBehaviour {
 
@@ -25,4 +27,7 @@ public class lgtMoveShader : MonoBehaviour {
 
 //		}
 	}
+}
+
+
 }

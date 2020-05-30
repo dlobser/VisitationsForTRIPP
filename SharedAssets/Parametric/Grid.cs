@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+using UnityEngine;
+
+namespace ON{
 
 public static class Grid  {
 
@@ -38,4 +40,6 @@ public static class Grid  {
 		mesh.RecalculateNormals();
         return mesh;
 	}
+}
+
 }

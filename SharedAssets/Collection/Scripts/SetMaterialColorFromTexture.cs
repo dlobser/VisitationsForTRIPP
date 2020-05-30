@@ -1,6 +1,8 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
+namespace ON{
 
 public class SetMaterialColorFromTexture : MonoBehaviour
 {
@@ -26,4 +28,7 @@ public class SetMaterialColorFromTexture : MonoBehaviour
         avg = Color.HSVToRGB((H + hueRotation) % 1, S, Mathf.Lerp(V, 1 - V, valueInvert));
         material.SetColor(color, avg);
     }
+}
+
+
 }

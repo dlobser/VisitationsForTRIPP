@@ -1,6 +1,8 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
+namespace ON{
 
 public class FadeAudio : MonoBehaviour
 {
@@ -37,4 +39,7 @@ public class FadeAudio : MonoBehaviour
         yield return new WaitForSeconds(Random.Range(pauseTime.x, pauseTime.y));
         StartCoroutine(PlayAudio());
     }
+}
+
+
 }

@@ -1,7 +1,9 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+
+namespace ON{
 
 public class AutoLoadNextScene : MonoBehaviour
 {
@@ -17,4 +19,7 @@ public class AutoLoadNextScene : MonoBehaviour
     {
         SceneManager.LoadScene(whichScene);
     }
+}
+
+
 }

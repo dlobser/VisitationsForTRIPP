@@ -1,3 +1,5 @@
+
+namespace ON{
 /**************************************									
 	Copyright Unluck Software	
  	www.chemicalbliss.com								
@@ -281,4 +283,7 @@ public class FlockChild:MonoBehaviour{
     		}   
     	}
     }
+}
+
+
 }

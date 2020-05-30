@@ -1,5 +1,7 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
+
+namespace ON{
 
 public class spiral : MonoBehaviour {
 	public GameObject thing;
@@ -27,4 +29,7 @@ public class spiral : MonoBehaviour {
             t.Rotate(0, 0, Random.value * 360);
         }
     }
+}
+
+
 }

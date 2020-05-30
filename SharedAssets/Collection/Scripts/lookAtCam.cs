@@ -1,5 +1,7 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
+
+namespace ON{
 
 public class lookAtCam : MonoBehaviour {
 
@@ -21,4 +23,7 @@ public class lookAtCam : MonoBehaviour {
 			    transform.Rotate (0, addRotation, 0);
 		}
 	}
+}
+
+
 }

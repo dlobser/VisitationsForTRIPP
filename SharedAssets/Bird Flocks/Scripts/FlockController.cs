@@ -1,3 +1,5 @@
+
+namespace ON{
 /****************************************
 	Copyright 2016 Unluck Software	
  	www.chemicalbliss.com 	 																																																																							
@@ -189,4 +191,7 @@ public class FlockController:MonoBehaviour{
     		_childAmount = 0;
     		_roamers.Clear();
     }
+}
+
+
 }

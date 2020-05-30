@@ -1,6 +1,8 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
+namespace ON{
 
 public class ButtonMaker : MonoBehaviour
 {
@@ -58,4 +60,7 @@ public class ButtonMaker : MonoBehaviour
     {
         
     }
+}
+
+
 }

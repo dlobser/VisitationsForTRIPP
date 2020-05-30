@@ -1,6 +1,8 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
+namespace ON{
 
 public class moveToCamHeight : MonoBehaviour {
     public float speed;
@@ -13,4 +15,7 @@ public class moveToCamHeight : MonoBehaviour {
             this.transform.position.z);
 
     }
+}
+
+
 }

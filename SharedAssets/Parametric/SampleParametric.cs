@@ -1,6 +1,8 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
+namespace ON{
 
 public class SampleParametric : MonoBehaviour {
 
@@ -83,4 +85,7 @@ public class SampleParametric : MonoBehaviour {
         float Z = Mathf.Cos(u * Mathf.PI * 4)*.1f + v*.1f;
         return new Vector3(X,Y,Z);
     }
+}
+
+
 }

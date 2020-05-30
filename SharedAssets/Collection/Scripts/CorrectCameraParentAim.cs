@@ -1,7 +1,9 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR;
+
+namespace ON{
 public class CorrectCameraParentAim : MonoBehaviour {
     
     public float speed;
@@ -141,4 +143,7 @@ public class CorrectCameraParentAim : MonoBehaviour {
         prevRotation = Camera.main.transform.localRotation;
         shouldBeMoving = false;
     }
+}
+
+
 }

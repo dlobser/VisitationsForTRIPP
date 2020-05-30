@@ -1,5 +1,7 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
+
+namespace ON{
 
 public class lgtRot : MonoBehaviour {
 
@@ -24,4 +26,7 @@ public class lgtRot : MonoBehaviour {
 //		transform.localEulerAngles = new Vector3 (0, 0, distance+count * speed*distance);
 //		transform.localScale = new Vector3(Mathf.Sin(count),1,1);
 	}
+}
+
+
 }

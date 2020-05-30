@@ -1,7 +1,9 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+
+namespace ON{
 
 public class UI_Manager : Interactable
 {
@@ -151,3 +153,6 @@ public class UI_Manager : Interactable
     }
 }
 
+
+
+}

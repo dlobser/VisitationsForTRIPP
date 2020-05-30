@@ -2,14 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace River
+namespace ON
 {
-    public class Section : MonoBehaviour
+    namespace River
     {
-        public GameObject root;
-        public GameObject middle1;
-        public GameObject middle2;
-        public GameObject end;
-        public GameObject geo;
+        public class Section : MonoBehaviour
+        {
+            public GameObject root;
+            public GameObject middle1;
+            public GameObject middle2;
+            public GameObject end;
+            public GameObject geo;
+        }
     }
+
 }

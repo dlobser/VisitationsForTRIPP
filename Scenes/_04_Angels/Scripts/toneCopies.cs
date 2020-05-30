@@ -1,5 +1,7 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
+
+namespace ON{
 
 public class toneCopies : MonoBehaviour {
 
@@ -45,4 +47,7 @@ public class toneCopies : MonoBehaviour {
 //		count += Time.deltaTime*.2f;
 	
 	}
+}
+
+
 }

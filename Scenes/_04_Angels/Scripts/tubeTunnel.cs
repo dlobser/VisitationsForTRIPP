@@ -1,5 +1,7 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
+
+namespace ON{
 
 public class tubeTunnel : MonoBehaviour {
 
@@ -47,4 +49,7 @@ public class tubeTunnel : MonoBehaviour {
 		transform.GetComponent<MeshFilter>().mesh.CombineMeshes(combine);
 		transform.gameObject.active = true;
 	}
+}
+
+
 }

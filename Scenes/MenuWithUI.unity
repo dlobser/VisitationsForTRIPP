@@ -18979,9 +18979,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   minDistance: 1000000
-  debug: 0
+  debug: 1
   type: 
-  hoverTime: 1
+  hoverTime: 0
   moveTo: {x: 0, y: 10000, z: 0}
 --- !u!114 &1839638694
 MonoBehaviour:
@@ -19013,7 +19013,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 6.1232336e-17}
+  m_Size: {x: 1, y: 1, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1839638696
 MeshRenderer:

@@ -1,6 +1,8 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
+namespace ON{
 
 public class Interactable_EnableDisable : Interactable
 {
@@ -36,4 +38,7 @@ public class Interactable_EnableDisable : Interactable
         base.HandleTrigger();
         HandleEnter();
     }
+}
+
+
 }

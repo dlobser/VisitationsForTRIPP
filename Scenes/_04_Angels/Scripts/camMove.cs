@@ -1,5 +1,7 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
+
+namespace ON{
 
 public class camMove : MonoBehaviour {
 
@@ -18,4 +20,7 @@ public class camMove : MonoBehaviour {
 		count += Time.deltaTime;
 		transform.localPosition = new Vector3 (0, 0, distance+Mathf.Sin (count * speed)*distance*.8f);
 	}
+}
+
+
 }

@@ -1,6 +1,8 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
+namespace ON{
 
 [ExecuteInEditMode]
 public class positionToMaterial : MonoBehaviour
@@ -22,4 +24,7 @@ public class positionToMaterial : MonoBehaviour
         vector.Set(target.position.x, target.position.y, target.position.z, wVec);
         material.SetVector(channel, vector);
     }
+}
+
+
 }

@@ -1,7 +1,9 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+
+namespace ON{
 
 public class strobeSprite : MonoBehaviour {
 
@@ -97,4 +99,7 @@ public class strobeSprite : MonoBehaviour {
 			textMesh.color = mix;
 		}
 	}
+}
+
+
 }

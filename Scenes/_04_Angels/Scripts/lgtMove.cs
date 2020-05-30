@@ -1,5 +1,7 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
+
+namespace ON{
 
 public class lgtMove : MonoBehaviour {
 
@@ -39,4 +41,7 @@ public class lgtMove : MonoBehaviour {
 	public static float map(float s, float a1, float a2, float b1, float b2) {
 		return b1 + (s - a1) * (b2 - b1) / (a2 - a1);
 	}
+}
+
+
 }
